@@ -338,7 +338,7 @@ export default function Home() {
           <div className={styles.description}>
             {tokensToBeClaimed * 10} Tokens can be claimed!
           </div>
-          <button className={styles.button} onClick={claimITUDevTokens}>
+          <button className={styles.button} onClick={claimItuDevTokens}>
             Claim Tokens
           </button>
         </div>
